@@ -1,0 +1,65 @@
+.container{
+  font-family: "Lexend Peta", sans-serif;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  /* --tw-bg-opacity: 0.5;
+  background-color: rgba(167, 243, 208, var(--tw-bg-opacity)); */
+  margin: auto;
+  margin-top: 8%;
+  padding: 2rem;
+  width: 90%;
+  max-width: 40rem;
+  border-radius: 2rem;
+  padding-top: 1rem;
+}
+
+body {
+  background-image: url("bg-img.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+}
+
+.inputArea{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+}
+
+.inputs{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+#find{
+  width: 30%;
+  margin: auto;
+  font-family: "Hind", sans-serif;
+  --tw-bg-opacity: 0.7;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+  padding: 1rem;
+  border-radius: 3rem;
+  border: 1px solid grey;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+.outputArea{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+}
